@@ -1,0 +1,286 @@
+/*首页样式修改*/
+#index{position: relative;width: 20rem;z-index: 1;}
+#index .index_bg{width: 100%;position: absolute;top: 0;left: 0;z-index:2 ;}
+#index .baoxiang{position: absolute;width: 18rem;z-index: 9;left: 1rem;}
+#index .openBoxBut{position: absolute;z-index: 9;width: 11rem;left: 4.5rem;}
+#index .ruleBut{position: absolute;z-index: 9;width: 6.4rem;left: 2rem;}
+#index .rankingBut{position: absolute;z-index: 9;width: 6.4rem;right: 2rem;}
+#index .logo{top: 0.69rem;width: 4.1rem;margin-left: -2.05rem;}
+
+/* 活动规则*/
+#ruleBut{ background: #da3535;color: #ffc846;width: 20rem;overflow-x: hidden;font-size: 0.64rem;}
+#ruleBut article{ width: 20rem;overflow-x: hidden;}
+#ruleBut .cont_wrap{width: 94%; margin:0 auto; border-left: dashed 1px #ffc846;border-right: dashed 1px #ffc846;padding-bottom: 3rem}
+#ruleBut .ruleBut_detail{margin: .43rem 0 1.65rem 0;}
+#ruleBut .ruleBut_detail h3{width: 9.95rem;height: 2.45rem; margin: 0 auto}
+#ruleBut .ruleBut_detail h3 img{width: 100%;}
+#ruleBut .ruleBut_detail h4{width: 100%; text-align: center; text-align: -moz-center;text-align: -webkit-center; margin:1.49rem 0 1.28rem 0; font-size: .6rem; font-weight: normal;}
+#ruleBut .one_p{margin-top: .8rem;padding: 0 .5rem;}
+#ruleBut .bg_hg{ background: url(../images/icons1.png) no-repeat 0 -14rem; width: 1rem;height: 1rem;background-size: 2.5rem; display: inline-block; margin-right: .2rem}
+#ruleBut em{margin-left: .2rem}
+#ruleBut .two_p{ color: #fff;margin-top: .2rem}
+#ruleBut .red{color: #f87f50}
+#ruleBut .mt_0{ margin-top: 0}
+#ruleBut .cy_sort{ margin-top:1.2rem;padding: 0 .5rem;}
+#ruleBut .cy_sort h3{width: 6.19rem; margin: 0 auto; margin-bottom: 1rem}
+#ruleBut .cy_sort h3 img{width: 100%;}
+#ruleBut .first_p{ margin-top: .2rem}
+#ruleBut .numver{width: 5%;margin-left: 1.28rem;}
+#ruleBut .text_p{ width: 94%;}
+#ruleBut .texts_more{ text-indent: 1rem}
+#ruleBut .six_p{margin-top: 1rem}
+#ruleBut .six_p li{ margin-top: .2rem}
+#ruleBut .mt_8{ margin-top: .8rem}
+#ruleBut .mt2{ margin: .4rem 0}
+#ruleBut .one_text_img{ margin-top: .8rem;}
+#ruleBut .one_text_img .imgs{width: 4.47rem;}
+#ruleBut .mr4{ margin-right: .4rem}
+#ruleBut .ml4{ margin-left: .4rem}
+#ruleBut .one_text_img .imgs img{width: 100%}
+#ruleBut .clearfix .b{font-weight: bold;}
+#ruleBut .cy_sort .time1{text-align: center;text-align: -moz-center;text-align: -webkit-center;}
+
+/*列表页*/
+#list{position: relative;width: 20rem;overflow-x: hidden;z-index: 1;top: 0;left: 0;font-family: "microsoft yahei";} 
+#list *{float: left;}
+/*#list .list_bg{position: absolute;top: 0;left: 0;width: 100%;z-index: -1;}*/
+/*彩旗定位*/
+#list .caiqi{display:block;width: 8.4rem;overflow: hidden;top: -28px;}
+#list .caiqi1{display:block;width: 8.4rem;overflow: hidden;right: 0;top: -28px;}
+
+#list .logo{top: 0.64rem;width: 4.1rem;margin-left: -2.05rem;}
+/*当前获得的爱心数量*/
+#list .nowLoveValueBox{width: 17.8rem;margin-top:50px;margin-left: 1.1rem;position: relative;z-index: 2;}
+#list .nowLoveValueBox .nowLoveValue{width: 100%;}
+.shoudao{top: 0.88rem;left: 6.5rem;width: 2.13rem;}
+.aixin{width: 3.38rem;top: 0.88rem;}
+#list .nowLoveValueBox .user_title{width: 1.6rem;}
+#list .nowLoveValueBox .user_name{color: #ff6c6c;font-size: 0.746rem;height: 0.8rem;line-height: 0.8rem;padding:0.5rem 0.4rem 0.3rem;width:3rem;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#list .nowLoveValueBox .LoveValue{color: #ffe400;font-size: 1.33rem;z-index:3;top:0.52rem;left: 9.2rem;}
+#list .nowLoveValueBox .user{position: absolute;z-index: 3;top: 0.52rem;left: 1.28rem;}
+#list .nowLoveValueBox .user img{width: 1.73rem;height:1.73rem;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;}
+#list .nowLoveValueBox .unit{color: #ff6c6c;font-size: 0.904rem;bottom: 0.64rem;left: 1.28rem;width: 15.24rem;/*letter-spacing:0.04rem*/}
+#list .getLoveBox{width: 17.8rem;margin:1.06rem 1.1rem;position: relative;}
+#list .getLoveBox button.getLove_btn{left: 0;font-weight:bold;background: none;border-radius: 0.32rem;-webkit-border-radius: 0.32rem;-moz-border-radius: 0.32rem;border: 1px solid #fc5e5e;color: #fc5e5e;width: 8rem;height: 2.23rem;font-size: 0.8rem;}
+#list .getLoveBox button.getLove_btn_zc{left: 0;font-weight:bold;background: none;border-radius: 0.32rem;-webkit-border-radius: 0.32rem;-moz-border-radius: 0.32rem;border: 1px solid #fabd2d;color: #fabd2d;width: 8rem;height: 2.23rem;font-size: 0.8rem;}
+#list .getLoveBox button.shareLove{right:0;font-weight:bold;background: none;border-radius: 0.32rem;-webkit-border-radius: 0.32rem;-moz-border-radius: 0.32rem;border: 1px solid #fabd2d;color: #fabd2d;width: 8rem;height: 2.23rem;font-size: 0.8rem;}
+#list .getLoveBox .getLove{left: 0;}
+#list .getLoveBox .shareLove{right: 0;}
+#list .getLoveBox a{width: 8rem;}
+#list .getLoveBox a img{width: 100%;}
+/*开启奖项详情*/
+#list {background: url(../images/list_bg.png);background-repeat:repeat;}
+#list .con{overflow: hidden;}
+#list .tgBox{width: 20rem;margin-top: 1rem;}
+#list .box_l .giftPic{width: 8.5rem;color: #ffc846;font-size: 0.85rem;text-align: center;position: relative;font-weight: bold;}
+#list .box_l .giftPic img{width: 100%;}
+#list .box_l .giftPic dd{bottom: 0.85rem;left: 1.2rem;}
+#list .box_l .giftPic dd span{display: block;margin-top:0rem;margin-right: 0.2rem;height: 1rem;}
+#list .box_l .giftDet{width: 10rem;margin-right:1rem;position: relative;}
+#list .box_l .giftDet dt{font-weight: bold;color: #ffc846;font-size: 0.85rem;line-height: 1.3rem;margin-top:3.8rem;width: 100%;}
+#list .box_l .giftDet dd{width: 100%;color: #ffacac;font-size: 0.85rem;line-height: 1.3rem;margin-top:1.38rem}
+#list .box_l .giftDet dd span{display: inline-block;margin: 0 0.1rem;float: none;}
+#list .box_l .openBox{color: #ffc846;font-size: 0.746rem;height: 2.3rem;line-height: 2.3rem;margin-top: 0.5rem;margin-left: 3.75rem;width: 13rem;}
+#list .box_l .openBox img{width: 6.4rem;}
+#list .box_l .openBox a{float: right;width: 6.4rem;}
+#list .box_l .openBox .unit{width: 3.2rem;}
+#list .box_l .openBox .loveNum{font-size: 1.6rem;font-weight: bold;float: none;margin: 0 0.3rem 0 0.2rem;width: 3.2rem;}
+#list .box_l .xian{width: 100%;margin-top: 1rem;height: 1px;}
+#list .box_r .giftPic{width: 8.5rem;color: #ffc846;font-size: 0.85rem;text-align: center;position: relative;font-weight: bold;float: right;}
+#list .box_r .giftPic img{width: 100%;}
+#list .box_r .giftPic dd{bottom: 0.85rem;right: 1.8rem;}
+#list .box_r .giftPic dd span{display: block;margin-top:-0.15rem;margin-right: 0.2rem;height: 1rem;}
+#list .box_r .giftDet{width: 12rem;margin-left:1rem;position: absolute;}
+#list .box_r .giftDet dt{font-weight: bold;color: #ffc846;font-size: 0.85rem;line-height: 1.3rem;margin-top:3.8rem;width: 100%;}
+#list .box_r .giftDet dd{width: 100%;color: #ffacac;font-size: 0.85rem;line-height: 1.3rem;margin-top:1.38rem}
+#list .box_r .giftDet dd span{display: inline-block;margin: 0 0.1rem;float: none;}
+#list .box_r .openBox{color: #ffc846;font-size: 0.746rem;height: 2.3rem;line-height: 2.3rem;margin-top: 0.5rem;margin-left: 3.75rem;width: 13rem;}
+#list .box_r .openBox a{float: right;width: 6.4rem;}
+#list .box_r .openBox img{width: 6.4rem;}
+#list .box_r .openBox .unit{width: 3.2rem;}
+#list .box_r .openBox .loveNum{font-size: 1.6rem;font-weight: bold;float: none;margin: 0 0.3rem 0 0.2rem;width: 3.2rem;}
+#list .box_r .xian{width: 100%;margin-top: 1rem;height: 1px;}
+/*终极大奖要求*/
+#list .bossBox{position: relative;width: 20rem;margin-top: 45px;}
+#list .bossBox .title{width: 14.5rem;margin-left: 2.75rem;}
+#list .bossBox dl{margin-top: -1rem;}
+#list .bossBox dl dt img{width: 18.58rem;margin-left: 0.71rem;}
+#list .bossBox dl dd{margin-top:0.5rem;width: 18.4rem;color: #ffc846;line-height: 1.33rem;font-size: 0.8rem;margin: 1rem 0.8rem 0.5rem;text-align: justify;}
+#list .bossBox dl dd b{float: none;font-size:1rem;font-weight: bold;}
+#list .bossBox dd .xian{width: 100%;margin-top: -0.1rem;height: 1px;}
+#list .bossBox dd .jieshao_title{display: block;float: none;width: 8.05rem;margin-left: 5.2rem;margin-bottom: 0.5rem;}
+#list .bossBox dd .exiaobao{margin-top: 1.5rem;}
+
+/*排行榜*/
+#loveRank{width: 20rem;position: relative;overflow: hidden;background: url(../images/list_bg.png);background-repeat:repeat;}
+#loveRank .rank_title{width: 14.53rem;margin-top: 0.53rem;}
+#loveRank .loveRank_unit{color:#ff9494;font-size: 0.746rem;margin-bottom: 0.4rem;}
+#loveRank .rank_box{overflow-y: scroll;}
+#loveRank .rank_list{width: 18.5rem;padding: 0 0.75rem;position: relative;height: 2.4rem;overflow:hidden;line-height: 2.4rem;}
+#loveRank .rank_list .rank_xian{width: 18.5rem;bottom: 0;left: 0.75rem;height: 1px;}
+#loveRank .xuhao{color: #fff400;font-size: 0.96rem;}
+#loveRank .rank_list img.user_title{width: 1.6rem;height: 1.6rem;top:0.4rem;left: 1.75rem;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;}
+#loveRank .user_name{margin-left:2.55rem;width:10rem;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;color: #ffcaca;font-size: 0.8rem;/*margin-top: 0.8rem;*/}
+#loveRank .user_loveValue{color: #fff400;font-size: 0.8rem;margin-right: 0.2rem;}
+#loveRank .unit{color: #ffcbcb;font-size: 0.8rem;}
+
+/*开礼盒*/
+#openBox{width: 20rem;position: relative;overflow: hidden;background: url(../images/list_bg.png);background-repeat:repeat;}
+#openBox .openbox_title{width: 14.53rem;margin-top: 0.53rem;ma}
+#openBox .showGift_box{width: 18.9rem;height:22rem;margin-left: 0.55rem;overflow: hidden;position: relative;margin-top: -0.96rem;}
+#openBox .showGift_box .giftUnit{top: 2rem;font-size: 0.96rem;color: #fff500;width: 18.9rem;font-weight: bold;}
+#openBox .showGift_box .openbox_decorate{width: 100%;}
+#openBox .showGift_box .gift{width: 100%;}
+#openBox .showGift_box .open_Box{width: 10.1rem;bottom:0.1rem;left:4.4rem;z-index: 10;}
+#openBox .showGift_box .open_Box_top{width: 8.34rem;bottom:1.3rem;left: 5.38rem;z-index: 10;}
+
+#openBox .showGift_box .open_Box_bot{width: 10.2rem;bottom:0rem;left: 4.45rem;}
+#openBox .button_box{margin: 1.33rem 0 0.5rem;position: relative;}
+#openBox .button_box span{top: 0;height: 2.23rem;line-height:2.23rem;font-size: 0.69rem;color: #fabd2d;font-weight:bold;}
+#openBox .button_box a{width: 7.2rem;}
+/*已登录状态*/
+#openBox .button_box a img{width: 10.6rem;margin-top: 0.5rem;}
+/*未登录状态*/
+#openBox .button_box button{font-weight:bold;background: none;border-radius: 0.32rem;-webkit-border-radius: 0.32rem;-moz-border-radius: 0.32rem;border: 1px solid #fabd2d;color: #fabd2d;width: 7.2rem;height: 2.23rem;font-size: 0.8rem;}
+#openBox .button_box p{font-size: 0.8rem;color: #ff9494;margin-top: 0.5rem;}
+
+
+/*添加地址*/
+#address{background: #efeff4;}
+#address{text-align: left;}
+#address input{	border: none;font-size: 0.8rem;}
+#address li div.tishi{font-size: 0.69rem;color: #666;padding: 0.8rem 1.06rem;}
+#address li ul{background: #fff;padding: 0 1.06rem;font-size:0.8rem;}
+#address li .personNewUl label{padding-right: 0.8rem;}
+#address li .addressUl label{padding-right: 2.0rem;}
+#address li .addressUl label.last{padding-right: 0.8rem;}
+#address li select{border: none;font-size: 0.8rem;color: #333;}
+#address li select option{border: none;height: 1.06rem;font-size: 1.06rem;color: #333;}
+#address li ul li{border-top: 0.05rem solid #D7D7D7;padding: 0.96rem 0;}
+#address li ul li .last{height: 0.8rem;width: 4rem;float: left;}
+#address li ul li textarea.address{display: inline-block;width: 13rem;height:6.72rem;border: none;font-size: 0.8rem;}
+#address li ul li:first-child{border: none;}
+#address #submit{height: 2.67rem;width: 17.88rem;background: #da3535;border-radius: 0.21rem;font-size: 0.85rem;color: #fff;text-align: center;line-height: 1.6rem;border: none;float: right;margin: 2.24rem 1.06rem;}
+/*领取成功*/
+#getSuccess{width: 20rem;position: relative;overflow: hidden;background: url(../images/list_bg.png);background-repeat:repeat;}
+/*彩旗定位*/
+#getSuccess .caiqi{display:block;width: 8.4rem;overflow: hidden;top: -28px;}
+#getSuccess .caiqi1{display:block;width: 8.4rem;overflow: hidden;right: 0;top: -28px;}
+#getSuccess .openbox_title{width: 14.53rem;margin-top: 2.93rem;}
+#getSuccess .showGift_box{width: 18.9rem;height:17.54rem;margin-left: 0.55rem;overflow: hidden;position: relative;margin-top: -0.96rem;}
+
+#getSuccess .showGift_box .giftUnit{top: 1.2rem;font-size: 0.96rem;color: #fff500;width: 18.9rem;font-weight: bold;}
+#getSuccess .openbox_decorate,#getSuccess .gift{width: 100%;}
+#getSuccess .getGift_unit{border: 1px dashed #fff;border-radius: 0.26rem;-webkit-border-radius: 0.26rem;-moz-border-radius: 0.26rem;margin:-1.6rem 1.46rem 0.5rem;padding: 1.2rem;font-size: 0.8rem;line-height: 1rem;color: #fff;}
+
+#getSuccess .card_num{width:14rem;top: 3rem;font-size: 0.8rem;color: #fff;font-weight: bold;padding-left: 4rem;text-align: left}
+#getSuccess .card_password{width:14rem;top: 4.2rem;font-size: 0.8rem;color: #fff;font-weight: bold;padding-left: 4rem;text-align: left}
+/*开宝箱动效做兼容*/
+#openBox .showGift_box img.open_Box_top_click
+{
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0); 
+	animation: rot 1s;
+	-moz-animation: rot 1s;	/* Firefox */
+	-webkit-animation: rot 1s;	/* Safari 和 Chrome */
+	-moz-animation: rot 1s;	
+	-o-animation: rot 1s;	/* Opera */
+}
+@keyframes rot
+{
+	0%   {transform: rotate(15deg);
+		-ms-transform: rotate(15deg);		
+		-webkit-transform: rotate(15deg);	
+		-o-transform: rotate(15deg);		
+		-moz-transform: rotate(15deg);}
+	25%  {transform: rotate(-15deg);
+		-ms-transform: rotate(-15deg);		
+		-webkit-transform: rotate(-15deg);	
+		-o-transform: rotate(-15deg);		
+		-moz-transform: rotate(-15deg);}
+	50%   {transform: rotate(15deg);
+		-ms-transform: rotate(15deg);		
+		-webkit-transform: rotate(15deg);	
+		-o-transform: rotate(15deg);		
+		-moz-transform: rotate(15deg);}
+	75%  {transform: rotate(-15deg);
+		-ms-transform: rotate(-15deg);	
+		-webkit-transform: rotate(-15deg);	
+		-o-transform: rotate(-15deg);		
+		-moz-transform: rotate(-15deg);}
+	100%  {transform: rotate(0deg);
+		-ms-transform: rotate(0deg);		
+		-webkit-transform: rotate(0deg);	
+		-o-transform: rotate(0deg);		
+		-moz-transform: rotate(0deg);}
+}
+@-webkit-keyframes rot
+{
+	0%   {transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);}
+	25%  {transform: rotate(-15deg);
+		-webkit-transform: rotate(-15deg);}
+	50%   {transform: rotate(15deg);
+		-webkit-transform: rotate(15deg);}
+	75%  {transform: rotate(-15deg);
+		-webkit-transform: rotate(-15deg);}
+	100%  {transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);}
+}
+@-moz-keyframes rot
+{
+	0%   {transform: rotate(15deg);
+		-moz-transform: rotate(15deg);}
+	25%  {transform: rotate(-15deg);
+		-moz-transform: rotate(-15deg);}
+	50%   {transform: rotate(15deg);
+		-moz-transform: rotate(15deg);}
+	75%  {transform: rotate(-15deg);
+		-moz-transform: rotate(-15deg);}
+	100%  {transform: rotate(0deg);
+		-moz-transform: rotate(0deg);}
+}
+@-ms-keyframes rot
+{
+	0%   {transform: rotate(15deg);
+		-ms-transform: rotate(15deg);}
+	25%  {transform: rotate(-15deg);
+		-ms-transform: rotate(-15deg);}
+	50%   {transform: rotate(15deg);
+		-ms-transform: rotate(15deg);}
+	75%  {transform: rotate(-15deg);
+		-ms-transform: rotate(-15deg);	}
+	100%  {transform: rotate(0deg);
+		-ms-transform: rotate(0deg);}
+}
+@-o-keyframes rot
+{
+	0%   {transform: rotate(15deg);
+		-o-transform: rotate(15deg);}
+	25%  {transform: rotate(-15deg);
+		-o-transform: rotate(-15deg);}
+	50%   {transform: rotate(15deg);
+		-o-transform: rotate(15deg);}
+	75%  {transform: rotate(-15deg);
+		-o-transform: rotate(-15deg);}
+	100%  {transform: rotate(0deg);
+		-o-transform: rotate(0deg);	}
+}
+
+
+
+
+/*分享求爱心的提示样式*/
+.t_code_img_1{width: 20rem; height:100%; position: absolute; left: 0; top:0; z-index: 5;}
+.t_code_img_1 img{width: 100%;}
+/*分享求爱心的底部样式*/
+.fixed_back{ background: rgba(0,0,0,.7); position: fixed; left: 0;top: 0; width: 100%;height: 100%;z-index: 99; display: none;}
+.fixed_code{ background: rgba(0,0,0,.7); position: fixed; left: 0;top: 0; width: 100%;height: 100%;z-index: 99; display: none;}
+.t_code{width: 18rem; display: none; padding:.5rem; margin-left: -9.5rem;left: 50%; top: 10%;background-color: #fff;z-index: 99; position: fixed; text-align:center; border-radius: 6px;float: ;}
+.t_code img{width: 10rem;margin-left: 4rem;}
+.t_code p{line-height: 1.76rem; font-size: .88rem;text-align: center;text-align: -moz-center;text-align: -webkit-center;width: 18rem;}
+/*关闭按钮*/
+.closes{ position: absolute; top: -.5rem; right: -.5rem;width: 1.5rem;height: 1.5rem; background-position: -3.6rem -6.2rem; background-size: 5rem;}
+.closes img{width: 100%;margin: 0;}

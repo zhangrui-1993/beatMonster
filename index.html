@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>消灭童年的烦恼</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/beatMonster.css"/>
+	<link href="css/shake.css" rel="stylesheet" media="all">
+	<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="index">
+	<img src="images/index_bg.png" class="index_bg"/>
+	<img src="images/logo.png" class="posAbs logo"/>
+	<section class="titleBox posAbs">
+		<img src="images/titleDecorate.png" class="posAbs title" style="z-index: 10;"/>
+		<img src="images/baseballBat.png" class="posAbs titleBB imgdx"style="z-index: 9;"/>
+	</section>
+	<img src="images/beat.png" class="posAbs baoxiang beat shake shake-hard"/>
+	<img src="images/beat_bg.png" class="posAbs baoxiang beat_bg"/>
+	<a href="startGame.html" class="startGame posAbs">
+		<img src="images/startGame.png" class="openBoxBut"/>
+	</a>
+	<div class="fixed_code"></div>
+	<div class="t_code">
+		<div class="conBox">
+			<span class="closes com_bg" style="right: 15px;top: 15px;"><img src="images/closes1.png"/></span>
+			<p style="font-size: 14px;font-weight: bold;color: #666;">扫描关注e达福微信号或</p>
+			<p style="font-size: 14px;font-weight: bold;color: #666;">微信搜索“e达福”关注参与活动</p>
+			<div class="t_code_img">
+				<img src="images/2cide.jpg" />
+			</div>
+			<p style="font-size: 16px;font-weight: bold;color: #333;">长按图片，识别二维码</p>
+		</div>
+		<div class="t_code_img_1">
+			<img src="images/s_beat.png" />
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var bgHeight=document.documentElement.clientHeight;
+			var oHeight=document.documentElement.clientHeight;
+			var obbHeigt=(oHeight/4/10*8);
+			var rbHeigt=(oHeight/4/10*3);
+			var bxHeight=(oHeight/4/10*5);
+			$("#index").attr("height",oHeight);
+			$("#index .index_bg").attr("height",bgHeight);
+			$("#index")[0].style.height=bgHeight+"px";
+			$("#index .baoxiang")[0].style.bottom=bxHeight+"px";
+			$("#index .baoxiang")[1].style.bottom=bxHeight+"px";
+		})
+		
+	</script>
+	<script type="text/javascript">
+		$(".shake-hard").bind("click",function(){
+			$(this).addClass("shake-hard-a");
+			setTimeout(function timer(){
+				$(".shake-hard").removeClass("shake-hard-a")},300);
+		})
+		setInterval("myInterval()",5000);
+		setInterval("myInterval1()",5050);
+		function myInterval(){
+			$("#index .titleBox .imgdx").removeClass("titleBB");
+		}
+		function myInterval1(){
+			$("#index .titleBox .imgdx").addClass("titleBB")
+		}
+		$('.startGame').on('click',function(){
+			$('.t_code').show();
+			$('.fixed_code').show()
+		});//二维码显示
+		$('.closes').on('click',function(){
+			$('.t_code').hide();
+			$('.fixed_code').hide()
+		});//点击关闭按钮，二维码隐藏
+	</script>
+</body>
+</html>

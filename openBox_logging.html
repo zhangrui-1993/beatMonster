@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>开礼盒</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/beatMonster.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="openBox">
+	<img src="images/openbox_title.png" class="openbox_title  hide"/>
+	<div class="showGift_box">
+		<div class="giftUnit posAbs hide">抽得“<span>1000元京东电子卡</span>”</div>
+		<img src="images/JD 1000.png" class="gift posAbs hide"/>
+		<img src="images/openbox_decorate.png" class="openbox_decorate hide"/>
+		<img src="images/gold_01.png" class="open_Box_top posAbs"/>
+		<img src="images/gold_bot.png" class="open_Box_bot posAbs"/>
+		
+		<!--<img src="images/open_Box.png" class="open_Box posAbs"/>-->
+	</div>
+	<img src="images/openBoxBtn.png" class="open_Box_btn posAbs"/>
+	<!--登录状态-->
+	<div class="button_box hide">
+		<a href="addressNew.html"><img src="images/openbox_button_address.png"/></a>
+		<a href="addressNew.html" class="login"><div>已有账号，直接登录&gt;&gt;</div></a>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+
+		 	time1=function(){
+				$(".open_Box_top").removeClass('open_Box_top_click');
+				setTimeout('time2()',50);
+				setTimeout('time3()',100);
+				setTimeout('time4()',100);
+			}
+		 	time2=function(){
+		 		$(".open_Box_top").attr("src","images/gold_02.png");
+		 	}
+		 	time3=function(){
+		 		$(".open_Box_top").attr("src","images/gold_03.png");
+		 		$(".open_Box_top").attr("src","images/gold_04.png");
+		 	}
+		 	time4=function(){
+		 		$(".open_Box_top").attr("src","images/gold_04.png");
+		 		$(".openbox_title").fadeIn("slow");
+		 		$(".open_Box_btn").hide();
+		 		$(".giftUnit").fadeIn("slow");
+		 		$(".gift").fadeIn("slow");
+		 		$(".openbox_decorate").fadeIn("slow");
+		 		$(".button_box").fadeIn("slow");
+		 	}
+		 	open = 1;
+				$(".open_Box_top").click(function(){
+					if(open==1){
+						$(this).addClass('open_Box_top_click');
+						setTimeout('time1()',1000);			
+						open ++;
+						return open;
+					}else{
+						$(this).removeClass('open_Box_top_click');
+					}
+				})
+				$(".open_Box_btn").click(function(){
+					if(open==1){
+						$(".open_Box_top").addClass('open_Box_top_click');
+						setTimeout('time1()',1000);			
+						open ++;
+						return open;
+					}else{
+						$(".open_Box_top").removeClass('open_Box_top_click');
+					}
+				})
+		})	
+	</script>
+</body>
+</html>

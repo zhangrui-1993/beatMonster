@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*公共部分*/
+.left{float: left;}
+.right{float: right;}
+.t_mid{text-align: center;text-align: -webkit-center;text-align: -moz-center;}
+.font_b{font-weight: bold;}
+.hide{display: none;}
+.show{display: block;}
+.fclearl{clear: left;}
+.fclearr{clear: right;}
+.posAbs{position: absolute;z-index: 9;}
+.text_l{text-align: left;text-align: -moz-left;text-align: -webkit-left;}
+.text_r{text-align: right;text-align: -moz-right;text-align: -webkit-right;}
